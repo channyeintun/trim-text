@@ -85,6 +85,15 @@
                   <Insets top="20.0" />
                </VBox.margin>
             </HBox>
+            <HBox prefHeight="39.0" prefWidth="506.0">
+               <children>
+                  <Label text="Developed by Chan Nyein Tun" textFill="#03dac6">
+                     <HBox.margin>
+                        <Insets left="170.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
          </children>
       </VBox>
     </children>
