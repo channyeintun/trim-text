@@ -58,11 +58,23 @@
                   </JFXTextArea>
                </children>
             </HBox>
-            <JFXButton fx:id="trimButton" buttonType="RAISED" onAction="#Trim" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #03DAC6;" text="Trim" textFill="#3700b3">
+            <HBox prefHeight="37.0" prefWidth="414.0">
                <VBox.margin>
-                  <Insets left="200.0" top="20.0" />
+                  <Insets />
                </VBox.margin>
-            </JFXButton>
+               <children>
+                  <JFXButton fx:id="trimButton" buttonType="RAISED" onAction="#Trim" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #03DAC6;" text="Trim" textFill="#3700b3">
+                     <HBox.margin>
+                        <Insets left="150.0" top="30.0" />
+                     </HBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="copyButton" buttonType="RAISED" onAction="#CopyToClipboard" prefHeight="50.0" prefWidth="120.0" style="-fx-background-color: #03DAC6;" text="Copy to Clipboard" textFill="#3700b3">
+                     <HBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </HBox.margin>
+                  </JFXButton>
+               </children>
+            </HBox>
             <HBox>
                <children>
                   <Label text="Copyright " textFill="#03dac6">
