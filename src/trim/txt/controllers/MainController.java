@@ -71,7 +71,6 @@ public class MainController implements Initializable {
             popup.show(textField.getScene().getWindow());
             System.out.println(popup.getX());
             System.out.println(popup.getY());
-            //Bounds boundsInScene = label.localToScene(label.getBoundsInLocal());
             PauseTransition delay = new PauseTransition(Duration.seconds(1));
             delay.setOnFinished(e -> popup.hide());
             delay.play();
