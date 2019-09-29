@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author ASUS
+ * @author ChanNyeinTun
  */
 public class App extends Application {
     
